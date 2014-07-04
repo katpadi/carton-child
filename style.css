@@ -9,5 +9,19 @@
 */
 
 @import url("../carton/style.css");
+@import url(http://fonts.googleapis.com/css?family=Lekton:400,700,400italic);
+/* =Theme customization starts here */
 
-/* =Theme customization starts here
+body.basic {
+  font-family: 'Lekton', Arial, sans-serif;
+  background-color: #EEEEEE;
+}
+
+.basic .entry-title {
+  font-family: Lekton, sans-serif;
+}
+
+.basic #site-title {
+  font-family: Lekton, sans-serif;
+  font-weight: normal;
+}
