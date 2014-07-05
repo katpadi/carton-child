@@ -58,6 +58,10 @@ body.basic {
   border-bottom: 1px solid #E18A07;
 }
 
+.basic a {
+  color: #E18A07;
+}
+
 .commentlist .comment .comment-reply-link:hover {
   background: #E18A07;
 }
