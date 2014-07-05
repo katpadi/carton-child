@@ -25,3 +25,131 @@ body.basic {
   font-family: Lekton, sans-serif;
   font-weight: normal;
 }
+
+/* #aaa Gray to Orange */
+.basic article {
+  background-color: #fff;
+  border-top-color: #ff7200;
+}
+
+.pullquote {
+  font-size: 21px;
+  color: #444;
+  font-weight: bold;
+  line-height: 1.6125em;
+  border: 0;
+  padding: 0;
+  margin: 1em 1.625em 1em 0;
+  text-align: right;
+  width: 33%;
+  float: left;
+  border-top: 1px solid #ff7200;
+  border-bottom: 1px solid #ff7200;
+}
+
+.commentlist .comment .comment-reply-link:hover {
+  background: #ff7200;
+}
+
+.commentlist .bypostauthor > .comment-body {
+  border: 10px solid #ff7200;
+}
+
+.more-link:hover,
+.button:hover,
+#posts-pagination a:hover,
+input[type="submit"]:hover,
+.comment-reply-link:hover {
+  background: #FFA318;
+  color: white;
+}
+.more-link,
+.button,
+#posts-pagination a,
+input[type="submit"],
+.comment-reply-link {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background: #ff7200 ;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+  margin: 1em 0;
+  line-height: 1.2;
+  font-size: 15px;
+  border: 0 !important;
+  word-break: break-word;
+  text-shadow: none !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input:focus,
+textarea:focus {
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-color: #FFA318;
+}
+
+select {
+  display: inline-block;
+  height: 28px;
+  line-height: 1;
+  border: 1px solid #ff7200;
+  padding: 4px;
+  color: #555;
+}
+
+/* #FFA318 */
+blockquote {
+  margin: 1em 0;
+  border-left: 10px solid #FFA318;
+  padding-left: 12px;
+}
+
+.format-quote i.quote {
+  color: #FFA318;
+  display: block;
+  font-size: 60px;
+  position: relative;
+  float: left;
+}
+
+.commentlist .children .comment {
+  border-left: 1px solid #FFA318;
+  position: relative;
+}
+
+.commentlist .children .comment:before {
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: #fff;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  border: 1px solid #FFA318;
+  position: absolute;
+  top: 30px;
+  left: -7px;
+  content: "";
+  z-index: 60;
+}
+
+.commentlist .children .comment:after {
+  width: 100px;
+  height: 1px;
+  border-top: 1px solid #FFA318;
+  display: block;
+  position: absolute;
+  top: 36px;
+  left: -5px;
+  content: "";
+  z-index: 50;
+}
+
