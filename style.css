@@ -10,20 +10,20 @@
 */
 
 @import url("../carton/style.css");
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 /* =Theme customization starts here */
 
 body.basic {
-  font-family: 'Inconsolata', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   background-color: #EEEEEE;
 }
 
 .basic .entry-title {
-  font-family: Inconsolata, sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 .basic #site-title {
-  font-family: Inconsolata, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: normal;
 }
 
@@ -89,7 +89,6 @@ textarea:focus {
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  border-color: #FFA318;
 }
 
 select {
