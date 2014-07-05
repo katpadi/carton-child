@@ -18,6 +18,12 @@ body.basic {
   background-color: #EEEEEE;
 }
 
+.widget .widget-title {
+  color: #E18A07;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .basic .entry-title {
   font-family: Open Sans, sans-serif;
 }
