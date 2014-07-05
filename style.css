@@ -10,20 +10,20 @@
 */
 
 @import url("../carton/style.css");
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 /* =Theme customization starts here */
 
 body.basic {
-  font-family: 'Maven Pro', Arial, sans-serif;
+  font-family: 'Inconsolata', Arial, sans-serif;
   background-color: #EEEEEE;
 }
 
 .basic .entry-title {
-  font-family: Maven Pro, sans-serif;
+  font-family: Inconsolata, sans-serif;
 }
 
 .basic #site-title {
-  font-family: Maven Pro, sans-serif;
+  font-family: Inconsolata, sans-serif;
   font-weight: normal;
 }
 
