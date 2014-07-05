@@ -30,7 +30,7 @@ body.basic {
 /* #aaa Gray to Orange */
 .basic article {
   background-color: #fff;
-  border-top-color: #ff7200;
+  border-top-color: #E18A07;
 }
 
 .pullquote {
@@ -44,16 +44,16 @@ body.basic {
   text-align: right;
   width: 33%;
   float: left;
-  border-top: 1px solid #ff7200;
-  border-bottom: 1px solid #ff7200;
+  border-top: 1px solid #E18A07;
+  border-bottom: 1px solid #E18A07;
 }
 
 .commentlist .comment .comment-reply-link:hover {
-  background: #ff7200;
+  background: #E18A07;
 }
 
 .commentlist .bypostauthor > .comment-body {
-  border: 10px solid #ff7200;
+  border: 10px solid #E18A07;
 }
 
 .more-link:hover,
@@ -73,7 +73,7 @@ input[type="submit"],
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  background: #ff7200 ;
+  background: #E18A07 ;
   color: #fff !important;
   text-decoration: none;
   padding: 8px 12px;
@@ -95,7 +95,6 @@ select {
   display: inline-block;
   height: 28px;
   line-height: 1;
-  border: 1px solid #ff7200;
   padding: 4px;
   color: #555;
 }
