@@ -27,6 +27,10 @@ body.basic {
   font-weight: normal;
 }
 
+#site-title a {
+  text-decoration: none;
+  font-size: 90%;
+}
 /* #aaa Gray to Orange */
 .basic article {
   background-color: #fff;
